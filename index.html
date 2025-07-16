@@ -1,283 +1,543 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Teen Videos</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0f0f0f;
-      color: #f1f1f1;
-      margin: 0;
-      padding: 2rem;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-      color: #ff4500;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: #1e1e1e;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card img {
-      width: 100%;
-      display: block;
-      height: auto;
-      border-bottom: 1px solid #333;
-    }
-    .card a {
-      display: block;
-      padding: 1rem;
-      background-color: #ff4500;
-      color: #000;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      transition: background-color 0.2s ease;
-    }
-    .card a:hover {
-      background-color: #ff4500;
-    }
-  </style>
+  <title data-i18n="title">Take the Test to Unlock Exclusive HD Videos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>🎬 No ads on <a href="https://xydrem.github.io/XVideos" target="_blank">these</a> or any of the other videos</h1>
+<body class="bg-gray-900 text-white">
+  <div class="container mx-auto p-4 sm:p-6 text-center">
 
-  <div class="gallery">
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/6h7armyx096djb4u.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/z8ruvwcdnamk" target="_blank">Full Video</a>
+    <!-- Language Selector -->
+    <div class="mb-6">
+      <select id="langSelect" class="p-2 rounded text-black"></select>
     </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/b10youluem2x5hgq.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/tzrxgoaftx2k" target="_blank">Full Video</a>
+
+    <!-- Heading -->
+    <h1 class="text-2xl sm:text-3xl font-bold mb-4" data-i18n="headline">Full video available after the trial!</h1>
+
+    <!-- Image Header -->
+    <div class="flex justify-center mb-6">
+      <img src="ai_botfull.png" alt="AI Bot Full" loading="lazy" class="w-full sm:w-3/4 max-w-none h-auto mx-auto" />
     </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/20b0wwsju9kvcofd.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/znov12ggliog" target="_blank">Full Video</a>
+
+    <p class="text-base sm:text-lg mb-6" data-i18n="subheadline">Just complete a short test to unlock full access</p>
+
+    <!-- Clickable Image with Redirect -->
+    <div class="max-w-lg mx-auto mb-6 cursor-pointer" onclick="redirectToPlatformLink()">
+      <img src="dating.png" alt="Dating Preview" class="w-full rounded-xl" loading="lazy" />
     </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/w3d5sh7cf5zkujt6.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/7mlpf3mt47nt" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/j84n889zosdfrinj.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/j28ekipyibx7" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/h57ksg8ujsx46ehp.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/b3ycgp7835ro" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/jqqcyal6kdv2w9dn.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/idrmp5bfgdsq" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/b9zty7khbg6w0d0i.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/zha3jfijpti8" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/086sm2mi445vqdno.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/d9sv269ods1v" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/afsvn8ddfycqunoa.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/gm8lvc6tn33s" target="_blank">Full Video</a>
-    </div>
-       
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/t56l68h4z4uggtpy.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/axna0ei5yado" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/d68j7xu8q7zhuzdt.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/hpb15pcioxi4" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/o34qiam13bxyha6g.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/s75kdj1a0e8d" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/is7xs2n638qexief.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/nzlyx2kcu0vs" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/2tnk65bane9m8piq.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/88wj80qe26ze" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/d2qlghbqrqktbg3r.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/ujc2mihneloe" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/uh2fzab2xfpmg27s.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/3hxp3sojzkx6" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/wpzr3eyx9b7d5yyz.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/2px6nj2xxos7" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/3uys7v84gud03k2d.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/ab81l02r3ti6" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/7mnu9mao7vd9ttzw.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/z0cnbk7e5oqe" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/92uo1blag2d71lcc.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/deb3dip9p36l" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/m4seijg04elpwbde.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/09jbelzjajcx" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/5a08blbou4h7lgzr.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/mh8630q8561n" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/1xskql3lu1parsge.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/oi4rnukwq28j" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/cai8suj74b4ruadh.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/bm5nfp27a7xi" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/lmvn06xqf0ywbh5v.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/lmbvcaq2x1lq" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/wlv05p2yk0qjd2xn.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/5sfo3q2193ql" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/xmk43p5bbgedrx3y.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/680vb7ojuw6d" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/s5xt9q68a3o6764x.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/nw0m4u2gmn2y" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/msbg3lm92bcm7ju2.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/p0ngmx02hlia" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/v7er1vmm8ll79j9g.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/acjj3kw1or71" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/tl4ec0r11qz342pp.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/atqzb9k34zwc" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/ro7hqtqjdz072plk.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/99a1ylaemg1l" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/1r4agwc20ehmdfxo.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/hnrjpjselot0" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/a7nuxvg842o85gdt.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/8l6v59bxo0qu" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/yi5p85blpfis8pr4.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/ls9jf1biocw2" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/sxgxx3q67xuss42z.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/qqur1hd12cep" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/n4o0d9h17whds84s.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/peicw2prhhf5" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/d1i5i1z6ul8wkwfc.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/5rbv09pso7h4" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/emj1zjczlq1mnfhz.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/aj8lmxxzfs9r" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/997lfwhq17rrof43.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/jxc6476nzckt" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/ow8b1ir16kqvu1iy.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/3fcapta735cz" target="_blank">Full Video</a>
-    </div>
-    
-    <div class="card">
-      <img src="https://img.doodcdn.io/snaps/1nv4riffy05eqpsc.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/qn1l2aij82lq" target="_blank">Full Video</a>
-    </div>
-	
-	 <div class="card">
-      <img src="https://img.doodcdn.io/snaps/09vfz47ac3ezzhvx.jpg" alt="Thumbnail">
-      <a href="https://vide0.net/d/adlucip3l3xn" target="_blank">Full Video</a>
-       </div>
+
   </div>
+
+  <script>
+const translations = {
+  en: {
+    title: "Take the Test to Unlock Exclusive HD Videos",
+    headline: "Full video available after the test!",
+    subheadline: "No sign‑up required — just 6 quick questions",
+    test_label: "Online Test",
+    test_invite: "Congratulations! You've been invited!",
+    test_hint: "Try this FREE quiz to discover how you can earn money online!",
+    question1: "What is your age?",
+    cta_button: "Take the Test Now",
+    btn_under20: "less than 20 years",
+    btn_20_29: "20-29 years",
+    btn_30_49: "30-49 years",
+    btn_50_80: "50-80 years"
+  },
+  bn: {
+    title: "পরীক্ষা দিন এবং এক্সক্লুসিভ HD ভিডিও আনলক করুন",
+    headline: "পরীক্ষার পরে সম্পূর্ণ ভিডিও উপলভ্য!",
+    subheadline: "সাইন আপের প্রয়োজন নেই — শুধুমাত্র ৬টি দ্রুত প্রশ্ন",
+    test_label: "অনলাইন পরীক্ষা",
+    test_invite: "অভিনন্দন! আপনাকে আমন্ত্রণ জানানো হয়েছে!",
+    test_hint: "এই বিনামূল্যে কুইজটি চেষ্টা করুন এবং অনলাইনে উপার্জন করার উপায় শিখুন!",
+    question1: "আপনার বয়স কত?",
+    
+    btn_under20: "২০ বছরের কম",
+    btn_20_29: "২০-২৯ বছর",
+    btn_30_49: "৩০-৪৯ বছর",
+    btn_50_80: "৫০-৮০ বছর",
+    cta_button: "এখনই পরীক্ষা দিন"
+  },
+  bg: {
+    title: "Вземете тест и отключете ексклузивни HD видеа",
+    headline: "Пълното видео е достъпно след теста!",
+    subheadline: "Без регистрация – само 6 бързи въпроса",
+    test_label: "Онлайн тест",
+    test_invite: "Поздравления! Поканени сте!",
+    test_hint: "Опитайте този БЕЗПЛАТЕН тест и научете как да печелите онлайн!",
+    question1: "На колко години сте?",
+    
+    btn_under20: "под 20 години",
+    btn_20_29: "20–29 години",
+    btn_30_49: "30–49 години",
+    btn_50_80: "50–80 години",
+    cta_button: "Направи теста сега"
+  },
+  zh: {
+    title: "参加测试，解锁专属高清影片",
+    headline: "测试后可观看完整视频！",
+    subheadline: "无需注册 — 只需回答6个简单问题",
+    test_label: "在线测试",
+    test_invite: "恭喜！你已受邀！",
+    test_hint: "尝试这项免费测验，了解如何在线赚钱！",
+    question1: "您的年龄？",
+    
+    btn_under20: "小于20岁",
+    btn_20_29: "20-29岁",
+    btn_30_49: "30-49岁",
+    btn_50_80: "50-80岁",
+    cta_button: "立即参加测试"
+  },
+  nl: {
+    title: "Doe de test om exclusieve HD-video’s vrij te spelen",
+    headline: "Volledige video beschikbaar na de test!",
+    subheadline: "Geen aanmelding vereist — slechts 6 snelle vragen",
+    test_label: "Online Test",
+    test_invite: "Gefeliciteerd! Je bent uitgenodigd!",
+    test_hint: "Probeer deze GRATIS quiz en ontdek hoe je online geld kunt verdienen!",
+    question1: "Hoe oud ben je?",
+    
+    btn_under20: "jonger dan 20",
+    btn_20_29: "20–29 jaar",
+    btn_30_49: "30–49 jaar",
+    btn_50_80: "50–80 jaar",
+    cta_button: "Doe nu de test"
+  },
+  fil: {
+    title: "Kunin ang Test para I‑unlock ang Exclusive HD Videos",
+    headline: "Buong video available pagkatapos ng pagsubok!",
+    subheadline: "Walang sign-up — 6 mabilis na tanong lang",
+    test_label: "Online Test",
+    test_invite: "Congratulations! Na‑invite ka!",
+    test_hint: "Subukan ang LIBRENG quiz na ito para malaman kung paano kumita online!",
+    question1: "Ilang taon ka na?",
+    cta_button: "Kunin ang Test Ngayon"
+  },
+  fi: {
+    title: "Tee testi avataaksesi eksklusiiviset HD-videot",
+    headline: "Koko video saatavilla testin jälkeen!",
+    subheadline: "Ei rekisteröitymistä – vain 6 nopeaa kysymystä",
+    test_label: "Verkkotesti",
+    test_invite: "Onnittelut! Olet kutsuttu!",
+    test_hint: "Kokeile tätä ILMAISTA visailua ja opi ansaitsemaan verkossa!",
+    question1: "Kuinka vanha olet?",
+    
+    btn_under20: "alle 20 vuotta",
+    btn_20_29: "20–29 vuotta",
+    btn_30_49: "30–49 vuotta",
+    btn_50_80: "50–80 vuotta",
+    cta_button: "Tee testi nyt"
+  },
+  de: {
+    title: "Mach den Test, um exklusive HD‑Videos freizuschalten",
+    headline: "Vollständiges Video nach dem Test verfügbar!",
+    subheadline: "Keine Anmeldung erforderlich – nur 6 kurze Fragen",
+    test_label: "Online-Test",
+    test_invite: "Herzlichen Glückwunsch! Du bist eingeladen!",
+    test_hint: "Probier dieses KOSTENLOSE Quiz und entdecke, wie du online Geld verdienen kannst!",
+    question1: "Wie alt bist du?",
+    
+    btn_under20: "unter 20 Jahre",
+    btn_20_29: "20–29 Jahre",
+    btn_30_49: "30–49 Jahre",
+    btn_50_80: "50–80 Jahre",
+    cta_button: "Jetzt Test machen"
+  },
+  he: {
+    title: "עברו את המבחן כדי לפתוח גישה ל‑HD וידאו ייחודיים",
+    headline: "סרטון מלא זמין לאחר הבדיקה!",
+    subheadline: "אין צורך להירשם — רק 6 שאלות קצרות",
+    test_label: "מבחן מקוון",
+    test_invite: "מזל טוב! הוזמנת!",
+    test_hint: "נסו את הקוויז החינמי הזה וגלו איך להרוויח כסף באינטרנט!",
+    question1: "בן כמה אתה?",
+    
+    btn_under20: "מתחת לגיל 20",
+    btn_20_29: "20–29",
+    btn_30_49: "30–49",
+    btn_50_80: "50–80",
+    cta_button: "התחל את המבחן עכשיו"
+  },
+  hi: {
+    title: "परीक्षण लें और एक्सक्लूसिव HD वीडियो अनलॉक करें",
+    headline: "टेस्ट के बाद पूरा वीडियो उपलब्ध है!",
+    subheadline: "कोई साइन-अप आवश्यक नहीं — केवल 6 त्वरित प्रश्न",
+    test_label: "ऑनलाइन टेस्ट",
+    test_invite: "बधाई! आपको आमंत्रित किया गया है!",
+    test_hint: "इस मुफ्त क्विज़ को आज़माएं और ऑनलाइन पैसा कमाने का तरीका जानें!",
+    question1: "आपकी आयु क्या है?",
+    
+    btn_under20: "20 वर्ष से कम",
+    btn_20_29: "20–29 वर्ष",
+    btn_30_49: "30–49 वर्ष",
+    btn_50_80: "50–80 वर्ष",
+    cta_button: "परीक्षण शुरू करें"
+  },
+  hu: {
+    title: "Töltsd ki a tesztet az exkluzív HD videókért",
+    headline: "A teljes videó a teszt után érhető el!",
+    subheadline: "Nincs szükség regisztrációra – csak 6 gyors kérdés",
+    test_label: "Online teszt",
+    test_invite: "Gratulálunk! Meghívtunk!",
+    test_hint: "Próbáld ki ezt az INGYENES kvízt, és tudd meg, hogyan lehet online pénzt keresni!",
+    question1: "Hány éves vagy?",
+    
+    btn_under20: "kevesebb mint 20 év",
+    btn_20_29: "20–29 év",
+    btn_30_49: "30–49 év",
+    btn_50_80: "50–80 év",
+    cta_button: "Tedd a tesztet most"
+  },
+  id: {
+    title: "Ikuti Tes untuk Membuka Akses Video HD Eksklusif",
+    headline: "Video lengkap tersedia setelah pengujian!",
+    subheadline: "Tidak perlu mendaftar — hanya 6 pertanyaan singkat",
+    test_label: "Tes Online",
+    test_invite: "Selamat! Anda diundang!",
+    test_hint: "Coba kuis GRATIS ini dan temukan cara menghasilkan uang secara online!",
+    question1: "Berapa umur Anda?",
+    
+    btn_under20: "di bawah 20 tahun",
+    btn_20_29: "20–29 tahun",
+    btn_30_49: "30–49 tahun",
+    btn_50_80: "50–80 tahun",
+    cta_button: "Ikuti Tes Sekarang"
+  },
+  it: {
+    title: "Fai il test per sbloccare video HD esclusivi",
+    headline: "Video completo disponibile dopo il test!",
+    subheadline: "Nessuna registrazione — solo 6 domande rapide",
+    test_label: "Test Online",
+    test_invite: "Congratulazioni! Sei invitato!",
+    test_hint: "Prova questo quiz GRATUITO e scopri come guadagnare online!",
+    question1: "Quanti anni hai?",
+    
+    btn_under20: "meno di 20 anni",
+    btn_20_29: "20–29 anni",
+    btn_30_49: "30–49 anni",
+    btn_50_80: "50–80 anni",
+    cta_button: "Fai il test ora"
+  },
+  ja: {
+    title: "テストを受けて限定HD動画をアンロック",
+    headline: "テスト後に全編ビデオを視聴できます！",
+    subheadline: "サインアップ不要 — 6つの簡単な質問に答えるだけ",
+    test_label: "オンラインテスト",
+    test_invite: "おめでとうございます！招待されました！",
+    test_hint: "この無料クイズを試して、オンラインで稼ぐ方法を学びましょう！",
+    question1: "あなたの年齢は？",
+    
+    btn_under20: "20歳未満",
+    btn_20_29: "20〜29歳",
+    btn_30_49: "30〜49歳",
+    btn_50_80: "50〜80歳",
+    cta_button: "テストを今すぐ受ける"
+  },
+  kk: {
+    title: "Ексклюзивті HD видеоларға қол жеткізу үшін тест тапсырыңыз",
+    headline: "Толық бейне сынақтан кейін қолжетімді!",
+    subheadline: "Тіркелу қажет емес — тек 6 жылдам сұрақ",
+    test_label: "Онлайн тест",
+    test_invite: "Құттықтаймыз! Сізге шақыру жіберілді!",
+    test_hint: "Бұл ТЕГІН тесті орындап, онлайн табыс табуды үйреніңіз!",
+    question1: "Жасыңыз қанша?",
+    
+    btn_under20: "20 жастан аз",
+    btn_20_29: "20–29 жас",
+    btn_30_49: "30–49 жас",
+    btn_50_80: "50–80 жас",
+    cta_button: "Тестті қазір бастаңыз"
+  },
+  ko: {
+    title: "테스트를 완료하고 독점 HD 비디오 잠금 해제",
+    headline: "테스트 후 전체 동영상을 이용할 수 있습니다!",
+    subheadline: "가입 필요 없음 — 단 6개의 빠른 질문",
+    test_label: "온라인 테스트",
+    test_invite: "축하합니다! 초대되었습니다!",
+    test_hint: "이 무료 퀴즈를 시도하여 온라인으로 돈 버는 방법을 알아보세요!",
+    question1: "당신의 나이는?",
+    
+    btn_under20: "20세 미만",
+    btn_20_29: "20–29세",
+    btn_30_49: "30–49세",
+    btn_50_80: "50–80세",
+    cta_button: "지금 테스트 시작"
+  },
+  ms: {
+    title: "Ikuti Ujian untuk Buka Video HD Eksklusif",
+    headline: "Video penuh tersedia selepas ujian!",
+    subheadline: "Tiada pendaftaran diperlukan — hanya 6 soalan pantas",
+    test_label: "Ujian Dalam Talian",
+    test_invite: "Tahniah! Anda dijemput!",
+    test_hint: " cuba kuiz PERCUMA ini dan ketahui cara menjana wang secara dalam talian!",
+    question1: "Berapa umur anda?",
+    
+    btn_under20: "kurang dari 20 tahun",
+    btn_20_29: "20–29 tahun",
+    btn_30_49: "30–49 tahun",
+    btn_50_80: "50–80 tahun",
+    cta_button: "Mulakan Ujian Sekarang"
+  },
+  no: {
+    title: "Ta testen for å låse opp eksklusive HD-videoer",
+    headline: "Full video tilgjengelig etter testen!",
+    subheadline: "Ingen registrering nødvendig — bare 6 raske spørsmål",
+    test_label: "Nettbasert test",
+    test_invite: "Gratulerer! Du har blitt invitert!",
+    test_hint: "Prøv denne GRATIS quizen og finn ut hvordan du kan tjene penger online!",
+    question1: "Hvor gammel er du?",
+    
+    btn_under20: "under 20 år",
+    btn_20_29: "20–29 år",
+    btn_30_49: "30–49 år",
+    btn_50_80: "50–80 år",
+    cta_button: "Ta testen nå"
+  },
+  pl: {
+    title: "Wykonaj test, aby odblokować ekskluzywne HD‑wideo",
+    headline: "Pełne wideo dostępne po teście!",
+    subheadline: "Brak rejestracji — tylko 6 szybkich pytań",
+    test_label: "Test online",
+    test_invite: "Gratulacje! Zostałeś zaproszony!",
+    test_hint: "Spróbuj tego BEZPŁATNEGO quizu i dowiedz się, jak zarabiać online!",
+    question1: "Ile masz lat?",
+    
+    btn_under20: "poniżej 20 lat",
+    btn_20_29: "20–29 lat",
+    btn_30_49: "30–49 lat",
+    btn_50_80: "50–80 lat",
+    cta_button: "Zrób test teraz"
+  },
+  pt: {
+    title: "Faça o teste para desbloquear vídeos HD exclusivos",
+    headline: "Vídeo completo disponível após o teste!",
+    subheadline: "Sem cadastro — apenas 6 perguntas rápidas",
+    test_label: "Teste Online",
+    test_invite: "Parabéns! Você foi convidado!",
+    test_hint: "Experimente este quiz GRATUITO e descubra como ganhar dinheiro online!",
+    question1: "Qual é a sua idade?",
+    
+    btn_under20: "menos de 20 anos",
+    btn_20_29: "20–29 anos",
+    btn_30_49: "30–49 anos",
+    btn_50_80: "50–80 anos",
+    cta_button: "Faça o teste agora"
+  },
+  ro: {
+    title: "Fă testul pentru a debloca videoclipuri HD exclusive",
+    headline: "Videoclip complet disponibil după test!",
+    subheadline: "Fără înregistrare — doar 6 întrebări rapide",
+    test_label: "Test online",
+    test_invite: "Felicitări! Ai fost invitat!",
+    test_hint: "Încearcă acest quiz GRATUIT și descoperă cum să faci bani online!",
+    question1: "Câți ani ai?",
+    
+    btn_under20: "sub 20 de ani",
+    btn_20_29: "20–29 ani",
+    btn_30_49: "30–49 ani",
+    btn_50_80: "50–80 ani",
+    cta_button: "Fă testul acum"
+  },
+  ru: {
+    title: "Пройдите тест, чтобы получить эксклюзивные HD видео",
+    headline: "Полное видео доступно после теста!",
+    subheadline: "Регистрация не требуется — всего 6 быстрых вопросов",
+    test_label: "Онлайн тест",
+    test_invite: "Поздравляем! Вы приглашены!",
+    test_hint: "Пройдите этот БЕСПЛАТНЫЙ тест и узнайте, как зарабатывать онлайн!",
+    question1: "Ваш возраст?",
+    cta_button: "Начать тест",
+    btn_under20: "меньше 20 лет",
+    btn_20_29: "20–29 лет",
+    btn_30_49: "30–49 лет",
+    btn_50_80: "50–80 лет"
+  },
+  es: {
+    title: "Haz el test para desbloquear vídeos HD exclusivos",
+    headline: "Vídeo completo disponible después de la prueba.",
+    subheadline: "No se requiere registro — solo 6 preguntas rápidas",
+    test_label: "Test en línea",
+    test_invite: "¡Felicidades! ¡Estás invitado!",
+    test_hint: "Prueba este quiz GRATUITO y descubre cómo ganar dinero online!",
+    question1: "¿Cuál es tu edad?",
+    
+    btn_under20: "menos de 20 años",
+    btn_20_29: "20–29 años",
+    btn_30_49: "30–49 años",
+    btn_50_80: "50–80 años",
+    cta_button: "Realiza el test ahora"
+  },
+  sv: {
+    title: "Gör testet för att låsa upp exklusiva HD‑videor",
+    headline: "Fullständig video tillgänglig efter testet!",
+    subheadline: "Ingen registrering krävs – bara 6 snabba frågor",
+    test_label: "Online‑test",
+    test_invite: "Grattis! Du är inbjuden!",
+    test_hint: "Prova denna GRATIS quiz och lär dig tjäna pengar online!",
+    question1: "Hur gammal är du?",
+    
+    btn_under20: "under 20 år",
+    btn_20_29: "20–29 år",
+    btn_30_49: "30–49 år",
+    btn_50_80: "50–80 år",
+    cta_button: "Gör testet nu"
+  },
+  tl: { /* Tagalog same as fil */ 
+    title: "Kunin ang Test para I‑unlock ang Exclusive HD Videos",
+    headline: "Buong video available pagkatapos ng pagsubok!",
+    subheadline: "Walang sign-up — 6 mabilis na tanong lang",
+    test_label: "Online Test",
+    test_invite: "Congratulations! Na‑invite ka!",
+    test_hint: "Subukan ang LIBRENG quiz na ito para malaman kung paano kumita online!",
+    question1: "Ilang taon ka na?",
+    
+    btn_under20: "wala pang 20",
+    btn_20_29: "20–29 taong gulang",
+    btn_30_49: "30–49 taong gulang",
+    btn_50_80: "50–80 taong gulang",
+    cta_button: "Kunin ang Test Ngayon"
+  },
+  th: {
+    title: "ทำแบบทดสอบเพื่อปลดล็อกวิดีโอ HD พิเศษ",
+    headline: "ดูวิดีโอฉบับเต็มหลังจากการทดสอบ!",
+    subheadline: "ไม่ต้องลงทะเบียน — เพียง 6 คำถามสั้น ๆ",
+    test_label: "ทดสอบออนไลน์",
+    test_invite: "ขอแสดงความยินดี! คุณได้รับเชิญ!",
+    test_hint: "ลองแบบทดสอบฟรีนี้เพื่อเรียนรู้วิธีหาเงินออนไลน์!",
+    question1: "คุณอายุเท่าไหร่?",
+    
+    btn_under20: "ต่ำกว่า 20 ปี",
+    btn_20_29: "20–29 ปี",
+    btn_30_49: "30–49 ปี",
+    btn_50_80: "50–80 ปี",
+    cta_button: "ทำแบบทดสอบเลย"
+  },
+  tr: {
+    title: "Özel HD Videoları Açmak İçin Testi Yapın",
+    headline: "Tam video teste sonrası kullanılabilir!",
+    subheadline: "Kayıt gerekmez — sadece 6 hızlı soru",
+    test_label: "Çevrimiçi Test",
+    test_invite: "Tebrikler! Davet edildiniz!",
+    test_hint: "Bu ÜCRETSİZ testi dene ve çevrimiçi nasıl para kazanılır öğren!",
+    question1: "Kaç yaşındasınız?",
+    
+    btn_under20: "20 yaşından küçük",
+    btn_20_29: "20–29 yaş",
+    btn_30_49: "30–49 yaş",
+    btn_50_80: "50–80 yaş",
+    cta_button: "Testi Şimdi Yap"
+  },
+  uk: {
+    title: "Пройдіть тест, щоб отримати ексклюзивні HD відео",
+    headline: "Повне відео доступне після тесту!",
+    subheadline: "Реєстрація не потрібна — лише 6 швидких запитань",
+    test_label: "Онлайн тест",
+    test_invite: "Вітаємо! Ви запрошені!",
+    test_hint: "Пройдіть цей БЕЗКОШТОВНИЙ тест і дізнайтеся, як заробляти онлайн!",
+    question1: "Ваш вік?",
+    
+    btn_under20: "менше 20 років",
+    btn_20_29: "20–29 років",
+    btn_30_49: "30–49 років",
+    btn_50_80: "50–80 років",
+    cta_button: "Почати тест"
+  },
+  ur: {
+    title: "ٹیسٹ دیں اور خصوصی HD ویڈیوز انلاک کریں",
+    headline: "مکمل ویڈیو ٹیسٹ کے بعد دستیاب ہے!",
+    subheadline: "سائن اپ کی ضرورت نہیں — صرف 6 فوری سوالات",
+    test_label: "آن لائن ٹیسٹ",
+    test_invite: "مبارک ہو! آپ کو مدعو کیا گیا ہے!",
+    test_hint: "اس مفت کوئز کو آزمائیں اور آن لائن پیسہ کمانے کا طریقہ جانیں!",
+    question1: "آپ کی عمر کیا ہے؟",
+    
+    btn_under20: "20 سال سے کم",
+    btn_20_29: "20–29 سال",
+    btn_30_49: "30–49 سال",
+    btn_50_80: "50–80 سال",
+    cta_button: "اب ٹیسٹ دیں"
+  },
+  uz: {
+    title: "Maxsus HD videolarni ochish uchun testni yeching",
+    headline: "To‘liq video testdan so‘ng mavjud!",
+    subheadline: "Roʻyxatdan oʻtish shart emas — atigi 6 ta tezkor savol",
+    test_label: "Onlayn test",
+    test_invite: "Tabriklaymiz! Siz taklif qilindingiz!",
+    test_hint: "Ushbu BEPUL testni sinab ko‘ring va onlayn qanday pul ishlashni o‘rganing!",
+    question1: "Yoshingiz nechida?",
+    
+    btn_under20: "20 yoshdan kichik",
+    btn_20_29: "20–29 yosh",
+    btn_30_49: "30–49 yosh",
+    btn_50_80: "50–80 yosh",
+    cta_button: "Testni hoziroq boshlang"
+  },
+  vi: {
+    title: "Tham gia bài kiểm tra để mở video HD độc quyền",
+    headline: "Video đầy đủ có sẵn sau khi kiểm tra!",
+    subheadline: "Không cần đăng ký — chỉ 6 câu hỏi nhanh",
+    test_label: "Bài kiểm tra trực tuyến",
+    test_invite: "Chúc mừng! Bạn đã được mời!",
+    test_hint: "Thử quiz MIỄN PHÍ này và khám phá cách kiếm tiền trực tuyến!",
+    question1: "Bạn bao nhiêu tuổi?",
+    
+    btn_under20: "dưới 20 tuổi",
+    btn_20_29: "20–29 tuổi",
+    btn_30_49: "30–49 tuổi",
+    btn_50_80: "50–80 tuổi",
+    cta_button: "Thực hiện thử nghiệm ngay"
+  }
+};
+
+const supportedLangs = [
+  'en','bn','bg','zh','nl','fil','fi','de','he','hi','hu','id','it','ja','kk',
+  'ko','ms','no','pl','pt','ro','ru','es','sv','tl','th','tr','uk','ur','uz','vi'
+];
+
+function setLanguage(lang) {
+  const dict = translations[lang] || translations['en'];
+  document.title = dict.title;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (dict[key]) el.textContent = dict[key];
+  });
+  const langSelect = document.getElementById('langSelect');
+  if (langSelect) langSelect.value = lang;
+}
+
+const langSelect = document.getElementById('langSelect');
+for (const lang of supportedLangs) {
+  const option = document.createElement('option');
+  option.value = lang;
+  option.textContent = lang.toUpperCase();
+  langSelect.appendChild(option);
+}
+
+const browserLang = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
+const initialLang = supportedLangs.includes(browserLang) ? browserLang : 'en';
+setLanguage(initialLang);
+
+langSelect.addEventListener('change', e => setLanguage(e.target.value));
+
+
+
+    langSelect.addEventListener('change', e => setLanguage(e.target.value));
+    
+
+    function redirectToPlatformLink() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      let url = 'https://wr22mrh.casual-soul-mate.com/cadphtw';
+      if (/android/i.test(userAgent)) {
+        url = 'https://prev.affomelody.com/click?pid=3749&offer_id=753&l=1696892332';
+      } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        url = 'https://onykp.com/link?z=5753412&var={SOURCE_ID}&ymid={CLICK_ID}';
+      }
+      window.location.href = url;
+    }
+  </script>
 </body>
 </html>
